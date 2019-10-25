@@ -8,7 +8,7 @@ LABEL "com.github.actions.name"="GitHub Action for Google Cloud"
 LABEL "com.github.actions.description"="Wraps the GCloud SDK to enable common Google Cloud Platform commands."
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="green"
-COPY LICENSE README.md THIRD_PARTY_NOTICE.md /
+#COPY LICENSE README.md THIRD_PARTY_NOTICE.md /
 
 ENV DOCKERVERSION=18.06.1-ce
 RUN apt-get update && apt-get -y --no-install-recommends install curl \
