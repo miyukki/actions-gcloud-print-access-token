@@ -1,8 +1,8 @@
 FROM gcr.io/cloud-builders/gcloud-slim@sha256:d4ca671e5764c0f8f494a2a7540ced1753fbbe62af249e74c2fc0bbac6fa94fc
 
 LABEL "name"="gcloud-print-access-token"
-LABEL "version"="1.0.1"
-LABEL "maintainer"="GitHub Actions <support+actions@github.com>"
+LABEL "version"="1.0.0"
+LABEL "maintainer"="Yusei Yamanaka <yusei1128@gmail.com>"
 
 LABEL "com.github.actions.name"="GitHub Action for Google Cloud"
 LABEL "com.github.actions.description"="Wraps the GCloud SDK to enable common Google Cloud Platform commands."
